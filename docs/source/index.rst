@@ -18,10 +18,13 @@ Primary usage of Tasc will be:
 Current Tasc of developing Tasc is shown below:
 [image]
 
+Contents
+^^^^^^^^
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    gettingStarted
+   basicConcept
    background
    license
    help
