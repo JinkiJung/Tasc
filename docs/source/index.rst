@@ -3,8 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Tasc: task script
-=================
+==============================
+Tasc |version| documentation
+==============================
 Tasc is a generic script language describing a procedure.
 Tasc has a component-based syntax that makes a link from a human-readable script to an executable program of VR/AR training or simulation.
 
