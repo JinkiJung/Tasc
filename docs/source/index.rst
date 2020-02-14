@@ -1,14 +1,10 @@
 .. Tasc documentation master file, created by
-   sphinx-quickstart on Fri Feb 14 10:08:33 2020.
+   sphinx-quickstart on Fri Feb 14 11:33:50 2020.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Documentation of Tasc
+Welcome to Tasc's documentation!
 ================================
-Tasc is a syntax-based script that makes a link from a human-readable script to an executable program of VR/AR training or simulation.
-
-
-
 
 .. toctree::
    :maxdepth: 2
