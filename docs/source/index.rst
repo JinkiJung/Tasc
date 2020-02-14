@@ -3,8 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Tasc's documentation!
+Documentation of Tasc
 ================================
+Tasc is a syntax-based script that makes a link from a human-readable script to an executable program of VR/AR training or simulation.
+
+
+
 
 .. toctree::
    :maxdepth: 2
