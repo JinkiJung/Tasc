@@ -4,28 +4,33 @@ First of all, it is really important to understand the definition of components 
 
 Tasc
 ^^^^
-[description will be shown here]
+Tasc is a basic component of a scenario.
+[example]
 
 Terminus
 ^^^^^^^^
-[description will be shown here]
+Terminus is defined as a human user or an intelligent agent that,
+*has physical properties of a location and a bounding area
+*has states (IntraState)
+*is able to performs several actions
+*is a subject of Instruction
 
 Action
 ^^^^^^^^
-[description will be shown here]
+Action is a dynamic behavior of Terminus that make changes of state or produce data. Some action has target of the action which is Terminus type.
 
 Condition
 ^^^^^^^^^^^^
-[description will be shown here]
+Condition is a deterministic criteria triggered by a range of State change.
 
 Instruction
 ^^^^^^^^^^^^
-[description will be shown here]
+Instruction transfers information that should be exactly announced to Terminus within a Tasc through Interfaces.
 
 Context
 ^^^^^^^^^^^^
-[description will be shown here]
+Context is a description of prerequisite. Currently supported as string.
 
 Evaluation
 ^^^^^^^^^^^^
-[description will be shown here]
+Evaluation is a component that quantify Terminus' performance by Measurement.
