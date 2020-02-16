@@ -10,10 +10,10 @@ Tasc is a basic component of a scenario.
 Terminus
 ^^^^^^^^
 Terminus is defined as a human user or an intelligent agent that,
-*has physical properties of a location and a bounding area
-*has states (IntraState)
-*is able to performs several actions
-*is a subject of Instruction
+  * has physical properties of a location and a bounding area
+  * has states (IntraState)
+  * is able to performs several actions
+  * is a subject of Instruction
 
 Action
 ^^^^^^^^
