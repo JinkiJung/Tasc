@@ -28,6 +28,7 @@ Condition is a deterministic criteria triggered by a range of State change.
 Instruction
 ^^^^^^^^^^^^
 Instruction transfers information that should be exactly announced to Terminus within a Tasc through Interfaces.
+Instruction can be used to inform what happens within the Tasc execution.
 
 Context
 ^^^^^^^^^^^^
