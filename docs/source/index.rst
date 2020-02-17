@@ -7,14 +7,14 @@
 Tasc |version| documentation
 ==============================
 Tasc is a generic script language describing a procedure.
-Tasc has a component-based syntax that makes a link from a human-readable script to an executable program of VR/AR training or simulation.
-For virtual training, this script will provide a consistent link of idea from trainee to implementor.
+The goal of this work is to radically reduce the time and cost of implementing a scenario to an executable program of VR/AR or simulation.
+For virtual training, this script will provide a consistent understanding in implementation between client and developer.
 
 Primary usage of Tasc will be:
-* Simple creation of a scenario or a situation
-* Simple creation of a description of a procedure or an instruction
-* Setting evaluation criteria per Tasc component or a scenario overall
-* Implementation of simulation or training based on Tasc file
+  * Simple creation of a scenario or a situation
+  * Simple creation of a description of a procedure or an instruction
+  * Setting evaluation criteria per Tasc component or a scenario overall
+  * Implementation of simulation or training based on Tasc file
 
 Current Tasc of developing Tasc is shown below:
 [image]
