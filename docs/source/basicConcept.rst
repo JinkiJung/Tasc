@@ -4,7 +4,8 @@ First of all, it is really important to understand the definition of components 
 
 Tasc
 ^^^^
-Tasc is a basic component and a single step of a scenario, following the syntax below::
+Tasc is a basic component and a single step of a scenario, following a simple syntax below::
+
   given: some contexts
   when: Condition that initiates this Tasc
   who: Terminus who performs
