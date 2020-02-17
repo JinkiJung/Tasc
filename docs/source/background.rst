@@ -1,6 +1,6 @@
 Background
 ==========
-(`Jinki Jung <https://jinkijung.github.io/>`__) and Hyeopwoo Lee, as a research team, had conducted several series of user experiments on Virtual Reality (VR) and Augmented Reality (AR) based training (virtual training for short).
+`Jinki Jung <https://jinkijung.github.io/>`__ and `Hyeopwoo Lee <https://www.researchgate.net/profile/Hyeopwoo_Lee>`__, as a research team, had conducted several series of user experiments on Virtual Reality (VR) and Augmented Reality (AR) based training (virtual training for short).
 While repeating similar procedure of developing virtual training, they found out that the core value of the program is transferring the information that should be transferred to a trainee precisely
 whereas the implementation of it from a training script is very tough and even risky process when it does not fit to the trainer's expectation.
 
@@ -21,7 +21,7 @@ After finalizing the submission, Jinki decided to extend this authoring scheme t
 
 Procedure description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-The scenario authoring should be simple, informative, but linked to the implementation.
+The scenario authoring should be simple and *informative*, but linked to the implementation.
 They found out there is no perfect solution to this requirement.
-With Hyeopwoo's advice, Jinki developed Tasc-Unity and its reference implementations and extended it to more generic procedure description inspired by Behavior-Driven Development.
+With Hyeopwoo's advice, Jinki developed `Tasc-Unity <https://github.com/JinkiJung/Tasc-Unity>`__ and `its reference implementations <https://github.com/VirtualityForSafety>__` and extended it to more generic procedure description inspired by Behavior-Driven Development.
 Now the objective of Tasc is to be able to represent all kind of procedures and ingest it as executable.
