@@ -5,6 +5,7 @@ First of all, it is really important to understand the definition of components 
 Tasc
 ^^^^
 Tasc is a basic component and a single step of a scenario.
+.. parsed-literal::
   :caption: Tasc syntax
   given: some contexts
   when: Condition that initiates this Tasc
