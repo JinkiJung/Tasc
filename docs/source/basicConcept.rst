@@ -5,7 +5,13 @@ First of all, it is really important to understand the definition of components 
 Tasc
 ^^^^
 Tasc is a basic component and a single step of a scenario.
-[example]
+  :caption: Tasc syntax
+  given: some contexts
+  when: Condition that initiates this Tasc
+  who: Terminus who performs
+  do: Action should be performed
+  until: Condition that terminates this Tasc
+  following: Instruction including information to guide the Terminus (who)
 
 Terminus
 ^^^^^^^^
