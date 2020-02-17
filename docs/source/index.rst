@@ -16,6 +16,14 @@ Primary usage of Tasc will be:
   * Setting evaluation criteria per Tasc component or a scenario overall
   * Implementation of simulation or training based on Tasc file
 
+Related GitHub repositories are:
+  * Tasc documentation: (https://github.com/JinkiJung/Tasc)
+  * Tasc-Unity engine: (https://github.com/JinkiJung/Tasc-Unity)
+  * Tasc web-editor: (https://github.com/JinkiJung/Tasc-editor)
+  * Maze escape 3D as a reference implementation based on Tasc-Unity: (https://github.com/VirtualityForSafety/MazeEscape3D)
+  * Stretching exercise 3D as a reference implementation based on Tasc-Unity: (https://github.com/VirtualityForSafety/StretchingExercise3D)
+  * Crane manipulation 3D as a reference implementation based on Tasc-Unity: (https://github.com/VirtualityForSafety/CraneManipulation3D)
+
 Current Tasc of developing Tasc is shown below:
 [image]
 
