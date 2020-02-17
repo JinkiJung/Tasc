@@ -4,7 +4,7 @@ First of all, it is really important to understand the definition of components 
 
 Tasc
 ^^^^
-Tasc is a basic component of a scenario.
+Tasc is a basic component and a single step of a scenario.
 [example]
 
 Terminus
@@ -14,10 +14,12 @@ Terminus is defined as a human user or an intelligent agent that,
   * has states (IntraState)
   * is able to performs several actions
   * is a subject of Instruction
+Terminus can be used as spatial knowledge that must be memorized for problem solving.
 
 Action
 ^^^^^^^^
 Action is a dynamic behavior of Terminus that make changes of state or produce data. Some action has target of the action which is Terminus type.
+Action can be interpreted as a motor skill of a user to be performed at Tasc.
 
 Condition
 ^^^^^^^^^^^^
