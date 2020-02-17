@@ -1,6 +1,6 @@
 Background
 ==========
-Jinki Jung and Hyeopwoo Lee, as a research team, had conducted several series of user experiments on Virtual Reality (VR) and Augmented Reality (AR) based training (virtual training for short).
+(`Jinki Jung <https://jinkijung.github.io/>`__) and Hyeopwoo Lee, as a research team, had conducted several series of user experiments on Virtual Reality (VR) and Augmented Reality (AR) based training (virtual training for short).
 While repeating similar procedure of developing virtual training, they found out that the core value of the program is transferring the information that should be transferred to a trainee precisely
 whereas the implementation of it from a training script is very tough and even risky process when it does not fit to the trainer's expectation.
 
