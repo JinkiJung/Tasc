@@ -6,9 +6,9 @@
 ==============================
 Tasc |version| documentation
 ==============================
-Tasc is a generic script language describing a procedure.
+Tasc is a procedure model representing the information should be transferred to users and evaluating performance of them based on behavior records.
 The goal of this work is to radically reduce the time and cost of implementing a scenario to an executable program of VR/AR or simulation.
-For virtual training, this script will provide a consistent understanding in implementation between client and developer.
+For virtual training, this model will provide a consistent understanding in implementation between client and developer.
 
 Primary usage of Tasc will be:
   * Simple creation of a scenario or a situation

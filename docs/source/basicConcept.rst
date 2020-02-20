@@ -7,12 +7,16 @@ Tasc
 Tasc is a basic component and a single step of a scenario, following a simple syntax below::
 
   given: some contexts
-  when: Condition that initiates this Tasc
-  who: Terminus who performs
-  do: Action should be performed
-  until: Condition that terminates this Tasc
-  following: Instruction including information to guide 'who'
-  resulting: Evaluation of performance (future feature)
+  when: Condition initiates Tasc
+  who: Terminus who performs Tasc
+  do: Action should be performed in Tasc
+  until: Condition that terminates Tasc
+  following: Instruction to guide [who]
+  resulting: Measurements and evaluation of performance (future feature)
+
+Scenario
+^^^^^^^^
+Scenario is a container of Tasc components, a flow of those, and required resources.
 
 Terminus
 ^^^^^^^^
@@ -25,7 +29,7 @@ Terminus can be used as spatial knowledge that must be memorized for problem sol
 
 Action
 ^^^^^^^^
-Action is a dynamic behavior of Terminus that make changes of state or produce data. Some action has target of the action which is Terminus type.
+Action is a dynamic behavior of Terminus that produce State or data. Some action has *target* of the action which is Terminus type.
 Action can be interpreted as a motor skill of a user to be performed at Tasc.
 
 Condition
@@ -43,4 +47,4 @@ Context is a description of prerequisite. Currently supported as string.
 
 Evaluation
 ^^^^^^^^^^^^
-Evaluation is a component that quantify Terminus' performance by Measurement.
+Evaluation is a component that quantify Terminus' performance through measurements.
