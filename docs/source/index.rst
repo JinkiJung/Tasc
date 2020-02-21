@@ -33,7 +33,7 @@ Contents
 
    gettingStarted
    basicConcept
-   terminologies
+   terminology
    background
    license
    help

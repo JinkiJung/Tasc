@@ -9,10 +9,10 @@ Tasc is a basic component and a single step of a scenario, following a simple sy
   given: some contexts
   when: Condition initiates Tasc
   who: Terminus who performs Tasc
-  do: Action should be performed in Tasc
+  do: Action should be performed
   until: Condition that terminates Tasc
   following: Instruction to guide [who]
-  resulting: Measurements and evaluation of performance (future feature)
+  resulting: Evaluation of performance (future feature)
 
 Scenario
 ^^^^^^^^
