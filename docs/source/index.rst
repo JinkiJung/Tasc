@@ -12,9 +12,10 @@ For virtual training, this model will provide a consistent understanding in impl
 
 Primary usage of Tasc will be:
   * Simple creation of a scenario or a situation with sequential flow
-  * Designing information transfer while a user carrying out the scenario
-  * Evaluating performance of the user (or agent) on a per-step basis or whole
-  * Plug-and-play implementation of the scenario based on Tasc script and Tasc engine (e.g., Tasc-Unity)
+  * Designing information transfer for user within context
+  * Evaluating user performance on a per-step basis or whole
+  * Plug-and-play scenario execution based on Tasc script and engine (e.g., Tasc-Unity)
+  * Evaluation of scenario itself (quality of scenario in terms of information transfer)
 
 Related GitHub repositories are:
   * Tasc documentation: (https://github.com/JinkiJung/Tasc)

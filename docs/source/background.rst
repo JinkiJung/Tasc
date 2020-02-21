@@ -11,10 +11,16 @@ At that moment high cost of implementation was expected due to the risk of misal
 But when there are misalignments on procedure, even worse, the implementation should be start from scratch which increases a significant amount of risks.
 They though about an ideal solution that provides common understanding of the procedure and even contributes its implementation.
 
+Separation of spatial and temporal elements
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+In previous works we suggested that the spatial and temporal elements should be separated in virtual training authoring in terms of reusability, which can be significantly degraded when those are coupled with.
+Hyeopwoo initially proposed the idea of Pairwise Authoring (PAUT) that only deals with temporal parts of authoring.
+Tasc also has same spirit so that the spatial parts like 3D models and environments should be built beforehand.
+
 What matter is procedure
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Even though the visual effects are crucial part of building immersion of virtual training, the procedure within the trainee's experience from it is significantly important as it used as a tool.
-Hyeopwoo initially proposed the idea of Pairwise Authoring that organize the procedure with the pairing components of Action and Target, assuming for single user.
+PAUT organizes a procedure with the pairing components of Action and Target, assuming for single user.
 The authoring scheme was extended to a triple set of components, i.e., Condition, Terminus, and Action, which was partially presented at the paper `Annotation vs. Virtual Tutor: Comparative Analysis on the Effectiveness of Visual Instructions in Immersive Virtual Reality <https://www.researchgate.net/publication/336592427_Annotation_vs_Virtual_Tutor_Comparative_Analysis_on_the_Effectiveness_of_Visual_Instructions_in_Immersive_Virtual_Reality>`__.
 As the paper aimed to evaluate user's performance at three different contexts, they confronted the difficulties in the implementation of virtual training and evaluation thereof.
 After finalizing the submission, Jinki decided to extend this authoring scheme to be more generic and publish it as open-source.
