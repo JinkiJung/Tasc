@@ -8,11 +8,11 @@ Tasc is a basic component and a single step of a scenario, following a simple sy
 
   given: some contexts
   when: Condition initiates Tasc
-  who: Terminus who performs Tasc
+  who: intelligent Terminus who performs Tasc
   do: Action should be performed
-  until: Condition that terminates Tasc
-  following: Instruction to guide [who]
-  resulting: Evaluation of performance (future feature)
+  follow: Instruction to guide [who]
+  before: Condition that terminates Tasc
+  then: Flow with outcome (e.g., performance score), corresponding feedback, and corresponding next Tasc
 
 Scenario
 ^^^^^^^^
@@ -20,17 +20,16 @@ Scenario is a container of Tasc components, a flow of those, and required resour
 
 Terminus
 ^^^^^^^^
-Terminus is defined as a human user or an intelligent agent that,
-  * has physical properties of a location and a bounding area
-  * has states (IntraState)
-  * is able to performs several actions
-  * is a subject of Instruction
-Terminus can be used as spatial knowledge that must be memorized for problem solving.
+Terminus is a object has physical properties of a location and a bounding area, and
+  * has state
+  * might represent spatial knowledge
+  * might perform action
+  * can be a subject of Instruction
 
 Action
 ^^^^^^^^
 Action is a dynamic behavior of Terminus that produce State or data. Some action has *target* of the action which is Terminus type.
-Action can be interpreted as a motor skill of a user to be performed at Tasc.
+Action can be interpreted as a motor skill of a user to be performed at Tasc. The measurement for performance evaluation can be taken from Action.
 
 Condition
 ^^^^^^^^^^^^
@@ -45,6 +44,7 @@ Context
 ^^^^^^^^^^^^
 Context is a description of prerequisite. Currently supported as string.
 
-Evaluation
+Flow
 ^^^^^^^^^^^^
-Evaluation is a component that quantify Terminus' performance through measurements.
+Flow is post processing of Tasc consists of three parts: Evaluation, Feedback, and link to the next Tasc. Evaluation can be made through an equation with the measurements as variables resulting a float value.
+Feedback then shows effects corresponding the score, which represents the user's performance through either a positive or negative way. Flow also provides link to the next Tasc based on the evaluation score.
