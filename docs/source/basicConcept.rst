@@ -7,12 +7,12 @@ Tasc
 Tasc is a basic component and a single step of a scenario, following a simple syntax below::
 
   given: some contexts
-  when: Condition initiates Tasc
-  who: intelligent Terminus who performs Tasc
-  do: Action should be performed
-  follow: Instruction to guide [who]
-  before: Condition that terminates Tasc
-  then: Flow with outcome (e.g., performance score), corresponding feedback, and corresponding next Tasc
+  when: *Condition* initiates *Tasc*
+  who: intelligent *Terminus* who performs *Tasc*
+  do: *Action* should be performed
+  follow: *Instruction* to guide [who]
+  before: *Condition* that terminates *Tasc*
+  then: scoring, corresponding feedback, and corresponding next *Tasc*
 
 Scenario
 ^^^^^^^^
@@ -46,5 +46,5 @@ Context is a description of prerequisite. Currently supported as string.
 
 Flow
 ^^^^^^^^^^^^
-Flow is post processing of Tasc consists of three parts: Evaluation, Feedback, and link to the next Tasc. Evaluation can be made through an equation with the measurements as variables resulting a float value.
+Flow is post processing of Tasc to control the flow afterward and consists of three parts: Evaluation, Feedback, and link to the next Tasc. Evaluation can be made through an equation with the measurements as variables resulting a float value.
 Feedback then shows effects corresponding the score, which represents the user's performance through either a positive or negative way. Flow also provides link to the next Tasc based on the evaluation score.
