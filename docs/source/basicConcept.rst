@@ -7,12 +7,12 @@ Tasc
 Tasc is a basic component and a single step of a scenario, following a simple syntax below::
 
   given: some contexts
-  when: *Condition* initiates *Tasc*
-  who: intelligent *Terminus* who performs *Tasc*
-  do: *Action* should be performed
-  follow: *Instruction* to guide [who]
-  before: *Condition* that terminates *Tasc*
-  then: scoring, corresponding feedback, and corresponding next *Tasc*
+  when: condition that initiates Tasc
+  who: intelligent terminus who performs Tasc
+  do: action should be performed
+  follow: instruction guiding who
+  before: condition that terminates Tasc
+  then: scoring, corresponding feedback, and moving on to next Tasc
 
 Scenario
 ^^^^^^^^
@@ -33,7 +33,8 @@ Action can be interpreted as a motor skill of a user to be performed at Tasc. Th
 
 Condition
 ^^^^^^^^^^^^
-Condition is a deterministic criteria triggered by a range of State change.
+Condition is a deterministic criteria triggered by a range of State change. In the context, *before* states the termination condition of Tasc, but not the goal.
+Evaluation on the goal achievement will be done in *then*.
 
 Instruction
 ^^^^^^^^^^^^
