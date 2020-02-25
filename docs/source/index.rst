@@ -6,7 +6,7 @@
 ==============================
 Tasc |version| documentation
 ==============================
-**Tasc**, from TAsc SCript, is a procedure model for scenario description, information transfer, and performance evaluation.
+**Tasc**, named after TAsk SCript, is a procedure model for task/scenario description, information transfer, and performance evaluation.
 The goal of this work is to radically reduce the time and cost of implementing a scenario to an executable program of VR/AR or simulation.
 The scope of Tasc is not only for modeling of scenario, but also engine that consume and realize the script.
 Tasc model will contribute more accurate communication of client and developer through syntax in implementation.
