@@ -1,18 +1,19 @@
 Basic concept
 =============
-First of all, it is really important to understand the definition of components and how it works together.
+First of all, it is really important to understand the components and how it works together.
+The use of Tasc assumes that the spatial parts of authoring, e.g., locating Terminuses and Interfaces in virtual environment, are done beforehand.
 
 Tasc
 ^^^^
 Tasc is a basic component and a single step of a scenario, following a simple syntax below::
 
-  given: some contexts
-  when: condition that initiates Tasc
-  who: intelligent terminus who performs Tasc
-  do: action should be performed
-  follow: instruction guiding who
-  before: condition that terminates Tasc
-  then: scoring, corresponding feedback, and moving on to next Tasc
+  given [Context]:  some contexts
+  when [Condition]: condition that initiates Tasc
+  who [Terminus]: intelligent terminus who performs Tasc
+  do [Action]: action should be performed
+  follow [Instruction]: instructions guiding who
+  before [Condition]: condition that terminates Tasc
+  then [Flow]: scoring, corresponding feedback, and moving on to next Tasc
 
 Scenario
 ^^^^^^^^
@@ -28,24 +29,30 @@ Terminus is a object has physical properties of a location and a bounding area, 
 
 Action
 ^^^^^^^^
-Action is a dynamic behavior of Terminus that produce State or data. Some action has *target* of the action which is Terminus type.
+Action is a dynamic behaviour of Terminus that produce State or data. Some action has *target* of the action which is Terminus type.
 Action can be interpreted as a motor skill of a user to be performed at Tasc. The measurement for performance evaluation can be taken from Action.
 
 Condition
 ^^^^^^^^^^^^
-Condition is a deterministic criteria triggered by a range of State change. In the context, *before* states the termination condition of Tasc, but not the goal.
-Evaluation on the goal achievement will be done in *then*.
+Condition is a deterministic criteria triggered by a range of State change.
+For example *before* states the termination condition of Tasc.
+To be more specific *before* performs as a trigger that the termination condition should be checked where the actual validation of the condition is performed by *then*.
 
 Instruction
 ^^^^^^^^^^^^
-Instruction transfers information that should be exactly announced to Terminus within a Tasc through Interfaces.
-Instruction can be used to inform what happens within the Tasc execution.
+Instruction transfers Information to Terminus through single or multiple Interfaces. A Tasc can have multiple instructions for the multimodal interaction.
+It aims to guide a human user as a Terminus to accomplish the goal of the Tasc through multimodal interfaces.
+For the case of Terminus as autonomous agent it can be used to inform its state or progress to human observers.
 
 Context
 ^^^^^^^^^^^^
-Context is a description of prerequisite. Currently supported as string.
+Context is a description of prerequisite. Currently supported as a list of strings.
 
 Flow
 ^^^^^^^^^^^^
 Flow is post processing of Tasc to control the flow afterward and consists of three parts: Evaluation, Feedback, and link to the next Tasc. Evaluation can be made through an equation with the measurements as variables resulting a float value.
 Feedback then shows effects corresponding the score, which represents the user's performance through either a positive or negative way. Flow also provides link to the next Tasc based on the evaluation score.
+
+Interface
+^^^^^^^^^
+Interface is a tool to represent Information with a sensory modality (such as visual, auditory, haptic, and others).
