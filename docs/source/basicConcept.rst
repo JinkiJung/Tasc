@@ -12,8 +12,8 @@ Tasc is a basic component and a single step of a scenario, following a simple sy
   who [Terminus]: intelligent terminus who performs Tasc
   do [Action]: action should be performed
   follow [Instruction]: instructions guiding who
-  before [Condition]: condition that terminates Tasc
-  then [Flow]: scoring, corresponding feedback, and moving on to next Tasc
+  until [Condition]: condition that terminates Tasc
+  then [Flow]: scoring, feedback, and moving on to next Tasc
 
 Scenario
 ^^^^^^^^
@@ -35,8 +35,8 @@ Action can be interpreted as a motor skill of a user to be performed at Tasc. Th
 Condition
 ^^^^^^^^^^^^
 Condition is a deterministic criteria triggered by a range of State change.
-For example *before* states the termination condition of Tasc.
-To be more specific *before* performs as a trigger that the termination condition should be checked where the actual validation of the condition is performed by *then*.
+For example *until* states the termination condition of Tasc.
+To be more specific *until* performs as a trigger that the termination condition should be checked where the actual validation of the condition is performed by *then*.
 
 Instruction
 ^^^^^^^^^^^^
