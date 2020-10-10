@@ -7,13 +7,15 @@ Tasc
 ^^^^
 Tasc is a basic component and a single step of a scenario, following a simple syntax below::
 
-  given:  prerequisite contexts
-  when: condition that initiates Tasc
-  who: intelligent terminus who performs Tasc
-  do: action should be performed
-  follow: instruction guiding who
-  until: condition that terminates Tasc
-  then: flow of scoring, feedback, and transition to next Tasc
+  given: input
+  startWhen: condition that initiates Tasc
+  actor: intelligent terminus who performs Tasc
+  act: action should be performed, resulting output
+  guidedBy: instruction guiding who
+  endWhen: condition that terminates Tasc
+  leadTo: flow of scoring, feedback, and transition to next Tasc
+
+Tasc has two basic states, *hasPerformed* and *isDone*.
 
 Scenario
 ^^^^^^^^
