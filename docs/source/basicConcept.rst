@@ -7,19 +7,21 @@ Tasc
 ^^^^
 Tasc is a basic component and a single step of a scenario, following a simple syntax below::
 
+  goal: high-level task description
   given: input
   startWhen: condition that initiates Tasc
   actor: intelligent terminus who performs Tasc
-  act: action should be performed, resulting output
-  guidedBy: instruction guiding who
-  endWhen: condition that terminates Tasc
+  act: a static or dynamic action to accomplish goal
+  guidedBy: instruction guiding actor
+  endWhen: condition that terminates Tasc and triggers leadTo
+  produce: output being generated as an outcome of act
   leadTo: flow of scoring, feedback, and transition to next Tasc
 
 Tasc has two basic states, *hasPerformed* and *isDone*.
 
 Scenario
 ^^^^^^^^
-Scenario is a container of Tasc components, a flow of those, and required resources.
+A scenario is a consequences of Tascs, which will eventually turn into a linked list.
 
 Terminus
 ^^^^^^^^
