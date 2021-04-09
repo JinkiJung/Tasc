@@ -6,10 +6,11 @@
 ==============================
 Tasc |version| documentation
 ==============================
-**Tasc**, named after TAsk SCript, is a procedure model for task/scenario description, information transfer, and performance evaluation.
-The goal of this work is to radically reduce the time and cost of implementing a scenario to an executable program of VR/AR or simulation.
-The scope of Tasc is not only for modeling of scenario, but also engine that consume and realize the script.
-Tasc model will contribute more accurate communication of client and developer through syntax in implementation.
+**Tasc** is a high-level script for representing tasks and its consequences, as its ambitious nickname is 'new wheel'.
+Tasc can represent a procedure of task, scenario by indicating which information needs to be transferred, and how the performance of the actor can be evaluated by chosen measurements.
+The use of Tasc will radically reduce the time and cost of implementing a scenario when it comes to development of an executable program of VR/AR or simulation.
+The scope of Tasc is only for modelling of scenario. It's execution is dependent to the engine that compiles the script. Same Tasc can be differently interpreted by different dependency.
+Tasc enables more accurate communication of client and developer through syntax in implementation.
 
 Primary usage of Tasc will be:
   * Simple creation of a scenario or a situation with sequential flow
@@ -17,6 +18,13 @@ Primary usage of Tasc will be:
   * Evaluating user performance on a per-step basis or whole
   * Plug-and-play scenario execution based on Tasc script and engine (e.g., Tasc-Unity)
   * Evaluation of scenario itself (quality of scenario in terms of information transfer)
+
+Tasc has been influenced by several concepts such as `GOMS model <https://en.wikipedia.org/wiki/GOMS>`__ and its variations,
+`behavior-driven development (BDD) <https://en.wikipedia.org/wiki/Behavior-driven_development>`__,
+`Human processor model (MHP) <https://en.wikipedia.org/wiki/Human_processor_model>`__,
+`promise <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise>`__,
+`React Hooks <https://reactjs.org/docs/hooks-overview.html>`__,
+and `Event-Condition-Action rule model (ECA) <https://en.wikipedia.org/wiki/Event_condition_action>`__.
 
 Related GitHub repositories are:
   * Tasc documentation: (https://github.com/JinkiJung/Tasc)
@@ -27,7 +35,7 @@ Related GitHub repositories are:
   * Crane manipulation 3D as a reference implementation based on Tasc-Unity: (https://github.com/VirtualityForSafety/CraneManipulation3D)
 
 
-Current documentation maintainer: `Jinki Jung <https://jinkijung.github.io/>`__
+Current maintainer: `Jinki Jung <https://jinkijung.github.io/>`__
 
 Contents
 ^^^^^^^^
