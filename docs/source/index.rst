@@ -27,12 +27,17 @@ Tasc has been influenced by several concepts such as `GOMS model <https://en.wik
 and `Event-Condition-Action rule model (ECA) <https://en.wikipedia.org/wiki/Event_condition_action>`__.
 
 Related GitHub repositories are:
-  * Tasc documentation: (https://github.com/JinkiJung/Tasc)
-  * Tasc-Unity engine: (https://github.com/JinkiJung/Tasc-Unity)
-  * Tasc web-editor: (https://github.com/JinkiJung/Tasc-editor)
-  * Maze escape 3D as a reference implementation based on Tasc-Unity: (https://github.com/VirtualityForSafety/MazeEscape3D)
-  * Stretching exercise 3D as a reference implementation based on Tasc-Unity: (https://github.com/VirtualityForSafety/StretchingExercise3D)
-  * Crane manipulation 3D as a reference implementation based on Tasc-Unity: (https://github.com/VirtualityForSafety/CraneManipulation3D)
+  * documentation
+    * Tasc documentation: (https://github.com/JinkiJung/Tasc)
+  * editor
+    * Tasc to-do list: (https://github.com/JinkiJung/tasc-todo)
+    * Tasc web-editor: (https://github.com/JinkiJung/Tasc-editor)
+  * engine
+    * Tasc-Unity engine: (https://github.com/JinkiJung/Tasc-Unity)
+  * reference implementations with the engine
+    * Maze escape 3D as a reference implementation based on Tasc-Unity: (https://github.com/VirtualityForSafety/MazeEscape3D)
+    * Stretching exercise 3D as a reference implementation based on Tasc-Unity: (https://github.com/VirtualityForSafety/StretchingExercise3D)
+    * Crane manipulation 3D as a reference implementation based on Tasc-Unity: (https://github.com/VirtualityForSafety/CraneManipulation3D)
 
 
 Current maintainer: `Jinki Jung <https://jinkijung.github.io/>`__
