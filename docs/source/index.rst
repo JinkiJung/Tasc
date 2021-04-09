@@ -6,7 +6,7 @@
 ==============================
 Tasc |version| documentation
 ==============================
-**Tasc** is a high-level script for representing tasks and its consequences, as its ambitious nickname is 'new wheel'.
+**Tasc** is a high-level script for representing tasks and its consequences, as its ambitious nickname is *new wheel*.
 Tasc can represent a procedure of task, scenario by indicating which information needs to be transferred, and how the performance of the actor can be evaluated by chosen measurements.
 The use of Tasc will radically reduce the time and cost of implementing a scenario when it comes to development of an executable program of VR/AR or simulation.
 The scope of Tasc is only for modelling of scenario. It's execution is dependent to the engine that compiles the script. Same Tasc can be differently interpreted by different dependency.
